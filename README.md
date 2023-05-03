@@ -4,7 +4,7 @@ Test your internet connecton to a callswitch server using the following tools. T
 
 The applicaion will test TCP ports using sockets and ICMP ping packets to deturmine the quality of the connection as well as any TCP ports that are required for the CallSwitch applicaion by TelcoSwitch. 
 
-![Screenshot of a tool working in Windows CMD](https://github.com/Kerleyt00/callswitch-firewall-tester/)
+![Screenshot of a tool working in Windows CMD](https://github.com/Kerleyt00/callswitch-firewall-tester/blob/main/image%20(6).png)
 
 ### How to use
 1. Download the release for your device 
