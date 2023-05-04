@@ -50,6 +50,7 @@ while True:
     
     if event == sg.WIN_CLOSED or event == 'Cancel': # if user closes window or clicks cancel
         break
+        exit()
 
     ip_addr = socket.gethostbyname(host)
     print(f"The server you are testing is: {host}\n")
