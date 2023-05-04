@@ -69,7 +69,7 @@ while True:
 
     if event == event == "Latancy test":
 
-        print ("\nWe are for network latancy\n")
+        print ("\nWe are testing for network latancy\n")
         
         action = ping(target=host, count=10, timeout=2)
 
