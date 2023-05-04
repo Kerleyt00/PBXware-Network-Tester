@@ -56,3 +56,8 @@ for port in range(len(ports)):
     sock.close()
 
 print ("\n\nPlease visit: https://support.telcoswitch.com/hc/en-us/articles/207279309-Network-ports-used-by-CallSwitch-Firewall-Guide- for more info\n")
+
+close = input("press the return/enter key to close window")
+
+if close == "*":
+    close()
