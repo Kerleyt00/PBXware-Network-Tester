@@ -51,7 +51,7 @@ while True:
     if event == sg.WIN_CLOSED or event == 'Cancel': # if user closes window or clicks cancel
         break
 
-    ip_addr = socket.gethostbyname,(host)
+    ip_addr = socket.gethostbyname(host)
     print(f"The server you are testing is: {host}\n")
     print (f"This server is hosted on IP address: {ip_addr}\n")
 
@@ -64,11 +64,11 @@ while True:
         print (f"Testing port {ports[port]} - on server {host}")
 
         if result == 0:
-            print("Host: {}, Port: {} - Enabled and working".format(host, ports[port]))
+            print("Host: {}, Port: {} - Enabled and working\n".format(host, ports[port]))
         else:
             print("Host: {}, - Firewall Issue on port: {} \nYou will need to address this".format(host, ports[port]))
         sock.close()
 
-    print ("\n\nPlease visit: https://support.telcoswitch.com/hc/en-us/articles/207279309-Network-ports-used-by-CallSwitch-Firewall-Guide- for more info\n")
+    print ("\nPlease visit: https://support.telcoswitch.com/hc/en-us/articles/207279309-Network-ports-used-by-CallSwitch-Firewall-Guide- for more info\n")
 
 window.close()
