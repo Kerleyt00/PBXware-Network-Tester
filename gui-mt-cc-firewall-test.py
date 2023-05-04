@@ -13,7 +13,9 @@ port_10005=10005
 port_10007=10007
 port_10009=10009
 port_11389=11389
+
 # turn ports into a list
+
 ports = [
     port_80,
     port_443,
@@ -103,6 +105,7 @@ while True:
         print ("\nPlease visit: https://support.telcoswitch.com/hc/en-us/articles/207279309-Network-ports-used-by-CallSwitch-Firewall-Guide- for more info\n")
 
     if event == event == "Help":
+        print ("This tool is used to test for issues within your network. \nPlease run this tool from the network that is impacted by the issues you have seen.\nYou can copy paste the results to TelcoSwitch support if you have any questions.")
         webbrowser.open ("https://support.telcoswitch.com/hc/en-us/articles/207279309-Network-ports-used-by-CallSwitch-Firewall-Guide-") 
 
 window.close()
