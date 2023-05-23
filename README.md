@@ -14,7 +14,7 @@ The applicaion will test TCP ports using sockets and ICMP ping packets to deturm
 1. Download the release for your device. 
 2. Using your CLI (bash or cmd) navigate to the exe or binary file.
   - If you are a linux user you will need to run the binary as root
-3. Run the file from the command line or windows UI
+3. Run the file from the command line or windows UI. Please note that Microsoft Defender SmartScreen stop the exe from running. 
 4. Enter in any infomation, that is prompted for. 
 5. Confirm if you need to make any changes to the firewall
 
