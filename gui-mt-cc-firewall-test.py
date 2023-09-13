@@ -31,7 +31,7 @@ ports = [
 # UI Design
 sg.theme('BlueMono')
 
-gui_title = sg.Text('Welcome to the TelcoSwitch CC / MT server firewall tester'),
+gui_title = sg.Text('Welcome to the PBXware firewall tester'),
 gui_host = sg.Text('What server do you want to test?'), sg.InputText(key="gui_input"),
 gui_output = sg.Output(size=(80, 20)),
 gui_button = sg.Button('Firewall test'), sg.Button('Packet loss test'),sg.Button('Latancy test'),sg.Button('Help'), sg.Button('Cancel')
@@ -44,7 +44,7 @@ layout = [
     ]
 
 # Create the Window
-window = sg.Window('TelcoSwitch Callswitch Firewall Tester',icon="icon.png").Layout(layout)
+window = sg.Window('PBXware Firewall Tester',icon="icon.png").Layout(layout)
 
 # Event Loop to process "events" and get the "values" of the inputs
 
@@ -102,10 +102,10 @@ while True:
                 print("Host: {}, - Firewall Issue on port: {} \nYou will need to address this".format(host, ports[port]))
             sock.close()
 
-        print ("\nPlease visit: https://support.telcoswitch.com/hc/en-us/articles/207279309-Network-ports-used-by-CallSwitch-Firewall-Guide- for more info\n")
+        print ("\nPlease visit: https://wiki.bicomsystems.com/PBXware/HOWTO-Guides/HOWTO-Port-Forwarding-When-The-System-Is-Behind-A-Firewall for more info\n")
 
     if event == event == "Help":
-        print ("This tool is used to test for issues within your network. \nPlease run this tool from the network that is impacted by the issues you have seen.\nYou can copy paste the results to TelcoSwitch support if you have any questions.")
-        webbrowser.open ("https://support.telcoswitch.com/hc/en-us/articles/207279309-Network-ports-used-by-CallSwitch-Firewall-Guide-") 
+        print ("This tool is used to test for issues within your network. \nPlease run this tool from the network that is impacted by the issues you have seen.\nYou can copy paste the results to Bicom support if you have any questions.")
+        webbrowser.open ("https://wiki.bicomsystems.com/PBXware/HOWTO-Guides/HOWTO-Port-Forwarding-When-The-System-Is-Behind-A-Firewall") 
 
 window.close()
