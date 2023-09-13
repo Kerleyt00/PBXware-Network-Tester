@@ -2,7 +2,7 @@
 
 Test your internet connecton to a PBXware server using the following tools. The tools are built in python and bundled into an applicaion using PyInstaller. Currently the tools are CLI and GUI tools only for Linux and Windows. 
 
-The applicaion will test TCP ports using sockets and ICMP ping packets to deturmine the quality of the connection as well as any TCP ports that are required for the PBXware applicaion by TelcoSwitch. The tool can also test for latancy and packet loss seen between your network and your MT/CC server. 
+The applicaion will test TCP ports using sockets and ICMP ping packets to deturmine the quality of the connection as well as any TCP ports that are required for the PBXware applicaion. The tool can also test for latancy and packet loss seen between your network and your PBXware server. 
 
 ### Future plans
 * Support for ICMP ping testing providing ICMP TTL and RTT stats ✔
@@ -19,11 +19,11 @@ The applicaion will test TCP ports using sockets and ICMP ping packets to deturm
 5. Confirm if you need to make any changes to the firewall
 
 #### Windows CLI
-![Screenshot of a tool working in Windows CMD](https://github.com/Kerleyt00/PBXware-firewall-tester/blob/main/image%20(6).png)
+![Screenshot of a tool working in Windows CMD](https://github.com/Kerleyt00/PBXware-Network-Tester/blob/main/image%20(6).png)
 
 #### Windows GUI
-![Screenshot of the tool working in Windows as a GUI](https://github.com/Kerleyt00/PBXware-firewall-tester/blob/main/gui_screenshot.png)
+![Screenshot of the tool working in Windows as a GUI](https://github.com/Kerleyt00/PBXware-Network-Tester/blob/main/gui_screenshot.png)
 
 ### Other infomation 
 
-Please visit: https://support.telcoswitch.com/hc/en-us/articles/207279309-Network-ports-used-by-PBXware-Firewall-Guide-
+Please visit: https://wiki.bicomsystems.com/PBXware/HOWTO-Guides/HOWTO-Port-Forwarding-When-The-System-Is-Behind-A-Firewall for more infomation. 
